@@ -1,0 +1,9 @@
+@use "../../../utils/styles/mixins";
+
+.site-header { display: flex; min-height: 5.875rem; align-items: center; justify-content: space-between; gap: 1.5rem; border-bottom: 1px solid var(--color-subtle); }
+.site-header__brand { font-family: var(--font-display); font-size: 1.45rem; font-weight: 600; letter-spacing: -.06em; }
+.site-header__navigation { display: flex; gap: 1.7rem; font-size: .78rem; font-weight: 600; }
+.site-header__navigation a { transition: opacity 200ms ease; }
+.site-header__navigation a:hover { opacity: .55; }
+
+@include mixins.mobile { .site-header { min-height: 4.7rem; }.site-header__navigation { display: none; } }

@@ -1,0 +1,8 @@
+@use "../../../utils/styles/mixins";
+
+.insight-section { display: grid; grid-template-columns: 1fr 1fr; gap: 7.5rem; }
+.insight-section__intro .button-link { margin-top: 2.2rem; }
+.insight-section__list { margin: 3rem 0 0; padding: 0; list-style: none; border-top: 1px solid var(--color-subtle); }
+.insight-section__list li { display: grid; grid-template-columns: 4rem 1fr; gap: .94rem; padding: 1.45rem 0; border-bottom: 1px solid var(--color-subtle); font-size: .98rem; }
+.insight-section__list span { color: var(--color-accent); font-family: var(--font-mono); font-size: .7rem; }
+@include mixins.mobile { .insight-section { grid-template-columns: 1fr; gap: 3.4rem; }.insight-section__intro .button-link { margin-top: 1.8rem; } }

@@ -1,0 +1,5 @@
+@use "../../../utils/styles/mixins";
+
+.button-link { display: inline-flex; align-items: center; gap: 1.1rem; padding: .95rem 1.15rem; border-radius: 99rem; color: #fff; background: var(--color-accent); font-size: .85rem; font-weight: 600; transition: transform 200ms ease, background 200ms ease; }
+.button-link:hover { transform: translateY(-.125rem); background: var(--color-accent-hover); }
+.button-link--compact { padding: .7rem .95rem; font-size: .75rem; }

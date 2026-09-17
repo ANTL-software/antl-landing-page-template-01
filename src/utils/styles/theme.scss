@@ -1,0 +1,25 @@
+.theme-product-launch {
+  --color-canvas: #f6f6f0;
+  --color-surface: #e6e9df;
+  --color-ink: #17200f;
+  --color-muted: #62695e;
+  --color-subtle: #d9ddd3;
+  --color-accent: #3d5916;
+  --color-accent-hover: #2d4210;
+  --color-accent-soft: #a2af7d;
+  --color-focus: #5c7d2d;
+  --color-dashboard-border: #10160e;
+  --color-dashboard-ink: #fff;
+  --color-dashboard-muted: #e3e9dd;
+  --dashboard-background: linear-gradient(155deg, rgba(30,69,83,.73), rgba(16,45,36,.75)), radial-gradient(circle at 10% 115%, #e2d7ac 0 20%, transparent 20.5%), linear-gradient(30deg,#28455c,#6b9ead 55%,#aec6c3);
+  --color-comparison-border: #bec5b3;
+  --color-comparison-row: #d3d9ca;
+  --color-quote-surface: #d6d0b7;
+  --color-quote-sphere-light: #f3f0df;
+  --color-quote-sphere-dark: #bdb694;
+  --visual-benefits-background: radial-gradient(ellipse at 20% 70%,#c6c8a1 0 17%,transparent 17.4%), radial-gradient(ellipse at 78% 85%,#779279 0 23%,transparent 23.4%), linear-gradient(150deg,#d3e2e4 0 20%,#aac6cb 45%,#526e5a 46% 64%,#d3d7b3 65%);
+  --visual-method-background: linear-gradient(17deg, transparent 49%, #cdd09e 50% 55%, transparent 56%), radial-gradient(ellipse at 78% 100%,#7c986c 0 34%,transparent 34.2%), linear-gradient(150deg,#a5c4c4,#e2e6c6 54%,#8fa881);
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", Arial, sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
