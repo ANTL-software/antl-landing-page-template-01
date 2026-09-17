@@ -22,10 +22,10 @@ export const site: ProductLaunchSite = {
     title: "Enfin une vision qui avance avec vous.",
     text: "Horizon révèle l'essentiel sans vous noyer sous les indicateurs.",
     items: [
-      { icon: "↗", title: "Révélez les tendances", description: "Une lecture nette des signaux qui comptent pour guider les prochaines décisions." },
-      { icon: "◎", title: "Gardez le cap partout", description: "Une même vision de vos équipes, sites et marchés sans ajouter de reporting." },
-      { icon: "◌", title: "Parlez à chacun", description: "Des données compréhensibles et contextualisées pour chaque interlocuteur." },
-      { icon: "✦", title: "Visualisez la progression", description: "Des rapports expressifs qui rendent vos objectifs concrets et partageables." },
+      { icon: "trend", title: "Révélez les tendances", description: "Une lecture nette des signaux qui comptent pour guider les prochaines décisions." },
+      { icon: "globe", title: "Gardez le cap partout", description: "Une même vision de vos équipes, sites et marchés sans ajouter de reporting." },
+      { icon: "message", title: "Parlez à chacun", description: "Des données compréhensibles et contextualisées pour chaque interlocuteur." },
+      { icon: "chart", title: "Visualisez la progression", description: "Des rapports expressifs qui rendent vos objectifs concrets et partageables." },
     ],
   },
   insight: {

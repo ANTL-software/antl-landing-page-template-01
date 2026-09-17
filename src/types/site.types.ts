@@ -8,8 +8,10 @@ export type CallToAction = {
   href: string;
 };
 
+export type FeatureIconName = "trend" | "globe" | "message" | "chart";
+
 export type Feature = {
-  icon: string;
+  icon: FeatureIconName;
   title: string;
   description: string;
 };
