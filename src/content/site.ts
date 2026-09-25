@@ -1,8 +1,9 @@
 import type { ProductLaunchSite } from "../types";
-import dashboardImage from "../assets/horizon-dashboard-macbook.jpg";
+import dashboardImage from "../assets/horizon-dashboard-macbook-v2.jpg";
 import macbookFrameImage from "../assets/macbook-air-frame.png";
 import perspectiveImage from "../assets/horizon-perspective.jpg";
 import methodImage from "../assets/horizon-method.jpg";
+import quoteImage from "../assets/horizon-quote-landscape.jpg";
 
 export const site: ProductLaunchSite = {
   theme: {
@@ -71,6 +72,8 @@ export const site: ProductLaunchSite = {
     text: "Horizon a complètement changé notre manière de piloter l'activité. Tout est lisible, et chacun sait quoi faire ensuite.",
     author: "Camille Martin",
     role: "Directrice des opérations",
+    image: quoteImage,
+    imageAlt: "Paysage abstrait de reliefs translucides et de lignes topographiques au lever du soleil",
   },
   method: {
     eyebrow: "Méthode",

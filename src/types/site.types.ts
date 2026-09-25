@@ -93,6 +93,8 @@ export type ProductLaunchSite = {
     text: string;
     author: string;
     role: string;
+    image: string;
+    imageAlt: string;
   };
   method: {
     eyebrow: string;
