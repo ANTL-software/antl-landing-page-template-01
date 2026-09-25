@@ -23,12 +23,12 @@ export function ProductLaunchPage() {
     const sections = {
       trust: <TrustSection logos={site.logos} />,
       benefits: <BenefitsSection benefits={site.benefits} />,
-      "visual-benefits": <VisualSection variant="benefits" />,
+      "visual-benefits": <VisualSection variant="benefits" {...site.visuals.benefits} />,
       insights: <InsightSection insight={site.insight} />,
       comparison: <ComparisonSection comparison={site.comparison} />,
       quote: <QuoteSection quote={site.quote} />,
       method: <MethodSection method={site.method} />,
-      "visual-method": <VisualSection variant="method" />,
+      "visual-method": <VisualSection variant="method" {...site.visuals.method} />,
     } satisfies Record<SectionId, ReactNode>;
 
     return <>{sections[sectionId]}</>;

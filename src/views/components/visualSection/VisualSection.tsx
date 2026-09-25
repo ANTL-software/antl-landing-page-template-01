@@ -1,10 +1,9 @@
 import "./visualSection.scss";
 
-type VisualSectionProps = { variant: "benefits" | "method" };
+type VisualSectionProps = { variant: "benefits" | "method"; image: string; imageAlt: string };
 
-export function VisualSection({ variant }: VisualSectionProps) {
+export function VisualSection({ variant, image, imageAlt }: VisualSectionProps) {
   const className = `visual-section visual-section--${variant}`;
-  const label = variant === "benefits" ? "Paysage abstrait vert et bleu" : "Chemin abstrait vers l'horizon";
 
-  return <section className={className} role="img" aria-label={label} />;
+  return <section className={className}><img src={image} alt={imageAlt} loading="lazy" decoding="async" /></section>;
 }

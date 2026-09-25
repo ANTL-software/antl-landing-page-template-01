@@ -1,4 +1,8 @@
 import type { ProductLaunchSite } from "../types";
+import dashboardImage from "../assets/horizon-dashboard-macbook.jpg";
+import macbookFrameImage from "../assets/macbook-air-frame.png";
+import perspectiveImage from "../assets/horizon-perspective.jpg";
+import methodImage from "../assets/horizon-method.jpg";
 
 export const site: ProductLaunchSite = {
   theme: {
@@ -15,6 +19,14 @@ export const site: ProductLaunchSite = {
   headerCta: { label: "Parler à un expert", href: "#contact" },
   hero: {
     title: "Voyez plus loin.",
+    image: dashboardImage,
+    imageAlt: "Dashboard Horizon affichant une vue globale des tendances et territoires",
+    frameImage: macbookFrameImage,
+    frameAlt: "MacBook Air affichant le dashboard Horizon",
+  },
+  visuals: {
+    benefits: { image: perspectiveImage, imageAlt: "Carte abstraite du monde faite de reliefs et de connexions lumineuses" },
+    method: { image: methodImage, imageAlt: "Chemin lumineux qui traverse un paysage vers l'horizon" },
   },
   logos: ["lumio", "northstar", "adept", "letter", "vertex", "orbit"],
   benefits: {

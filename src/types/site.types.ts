@@ -58,6 +58,14 @@ export type ProductLaunchSite = {
     title: string;
     text?: string;
     cta?: CallToAction;
+    image: string;
+    imageAlt: string;
+    frameImage?: string;
+    frameAlt?: string;
+  };
+  visuals: {
+    benefits: { image: string; imageAlt: string };
+    method: { image: string; imageAlt: string };
   };
   logos: readonly string[];
   benefits: {
