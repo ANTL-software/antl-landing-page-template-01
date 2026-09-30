@@ -36,16 +36,36 @@ export type SectionId =
   | "comparison"
   | "quote"
   | "method"
-  | "visual-method";
+  | "visual-method"
+  | "contact";
 
 export type SiteSection = {
   id: SectionId;
   enabled: boolean;
 };
 
+export type ProductLaunchPalette = {
+  canvas: string;
+  surface: string;
+  ink: string;
+  muted: string;
+  subtle: string;
+  accent: string;
+  accentHover: string;
+  accentSoft: string;
+  focus: string;
+  comparisonBorder: string;
+  comparisonRow: string;
+  quoteSurface: string;
+};
+
+export type ProductLaunchTypography = { display: string; body: string; mono: string };
+
 export type SiteTheme = {
   id: string;
   className: string;
+  palette: ProductLaunchPalette;
+  typography: ProductLaunchTypography;
 };
 
 export type ProductLaunchSite = {

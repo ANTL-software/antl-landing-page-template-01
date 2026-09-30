@@ -26,7 +26,7 @@ sections: [
 ]
 ```
 
-Le thème actif est choisi par `site.theme.className`. Ses tokens de couleur, de typographie et de focus sont dans `src/utils/styles/theme.scss`. Pour créer une variante, ajouter une classe `.theme-nom-du-theme` avec les mêmes variables CSS, puis l'indiquer dans la configuration. Les composants ne contiennent pas de codes couleur de marque.
+La palette et les polices sont directement éditables dans `site.theme` (`palette` et `typography`) ; elles sont injectées comme variables CSS à la racine de la page. `src/utils/styles/theme.scss` conserve les valeurs de repli et la classe de thème. Les composants ne contiennent pas de codes couleur de marque.
 
 ## Démarrer
 
@@ -51,7 +51,7 @@ Le fichier `public/404.html` redirige les accès directs à une URL inconnue ver
 
 1. Dupliquer ce dossier dans le dépôt du site client.
 2. Remplacer la configuration dans `src/content/site.ts` : nom, navigation, textes, bénéfices, témoignage et coordonnées.
-3. Choisir ou créer le thème dans `src/utils/styles/theme.scss`.
+3. Modifier `site.theme.palette` et `site.theme.typography` pour appliquer les couleurs et polices du client.
 4. Réordonner ou désactiver les sections dans `site.sections`.
 5. Remplacer les illustrations CSS par des visuels de marque lorsque le client les fournit.
 6. Ne conserver que les sections utiles à son parcours ; le template ne force ni catalogue, ni blog, ni paiement.

@@ -9,6 +9,7 @@ const sectionIds = new Set<SectionId>([
   "quote",
   "method",
   "visual-method",
+  "contact",
 ]);
 
 export function getEnabledSectionIds(sections: readonly SiteSection[]): readonly SectionId[] {

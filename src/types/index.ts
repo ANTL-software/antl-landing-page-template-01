@@ -5,6 +5,8 @@ export type {
   Feature,
   NavigationItem,
   ProductLaunchSite,
+  ProductLaunchPalette,
+  ProductLaunchTypography,
   SectionId,
   SiteSection,
   SiteTheme,

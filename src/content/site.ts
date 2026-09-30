@@ -9,6 +9,21 @@ export const site: ProductLaunchSite = {
   theme: {
     id: "product-launch",
     className: "theme-product-launch",
+    palette: {
+      canvas: "#f6f6f0",
+      surface: "#e6e9df",
+      ink: "#17200f",
+      muted: "#62695e",
+      subtle: "#d9ddd3",
+      accent: "#3d5916",
+      accentHover: "#2d4210",
+      accentSoft: "#a2af7d",
+      focus: "#5c7d2d",
+      comparisonBorder: "#bec5b3",
+      comparisonRow: "#d3d9ca",
+      quoteSurface: "#d6d0b7",
+    },
+    typography: { display: '"Playfair Display", Georgia, serif', body: '"DM Sans", Arial, sans-serif', mono: '"DM Mono", monospace' },
   },
   brand: "Horizon",
   navigation: [
@@ -107,5 +122,6 @@ export const site: ProductLaunchSite = {
     { id: "quote", enabled: true },
     { id: "method", enabled: true },
     { id: "visual-method", enabled: true },
+    { id: "contact", enabled: true },
   ],
 };
